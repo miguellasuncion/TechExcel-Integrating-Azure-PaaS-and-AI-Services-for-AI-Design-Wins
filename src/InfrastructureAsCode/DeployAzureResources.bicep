@@ -376,7 +376,7 @@ resource functionApp 'Microsoft.Web/sites@2022-03-01' = {
 
 resource apiManagementService 'Microsoft.ApiManagement/service@2023-09-01-preview' = {
   name: apiManagementServiceName
-  location: location
+  location: 'norwayeast'
   sku: {
     name: apimSku
     capacity: apimSkuCount
